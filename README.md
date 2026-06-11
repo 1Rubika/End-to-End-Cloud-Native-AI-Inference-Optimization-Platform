@@ -38,34 +38,6 @@ User Request → FastAPI Backend → Model Inference Engine → Response
 •	Prometheus 
 •	Grafana 
 
-📂 Project Structure
-cloud-ai-inference/
-│
-├── backend/
-│   ├── app/
-│   │   ├── main.py          # FastAPI app
-│   │   ├── model.py         # Model loading & inference
-│   │   ├── utils.py
-│   │
-│   ├── tests/
-│   │   ├── test_api.py      # API test cases
-│
-├── models/
-│   └── resnet18.pth         # Model weights
-│
-├── docker/
-│   └── Dockerfile
-│
-├── k8s/
-│   ├── deployment.yaml
-│   ├── service.yaml
-│
-├── monitoring/
-│   ├── prometheus.yml
-│
-├── requirements.txt
-├── README.md
-
 🚀 Features
 •	✅ REST API for AI inference 
 •	✅ Image classification using deep learning 
